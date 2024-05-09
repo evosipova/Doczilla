@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]" date="1715257065900" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/Task_1" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/.ninja_log" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/CMakeFiles/Task_1.dir/main.cpp.o" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/.idea/.name" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/.ninja_deps" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+</changelist>

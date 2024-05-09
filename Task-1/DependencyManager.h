@@ -1,0 +1,1 @@
+//// Created by Elizaveta Osipova on 5/9/24.//#ifndef TASK_1_DEPENDENCYMANAGER_H#define TASK_1_DEPENDENCYMANAGER_Hclass DependencyManager {};#endif//TASK_1_DEPENDENCYMANAGER_H

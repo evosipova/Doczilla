@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]1" date="1715257080472" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/.idea/.name" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="Task-1/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+</changelist>

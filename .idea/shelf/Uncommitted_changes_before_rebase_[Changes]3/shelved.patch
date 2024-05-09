@@ -1,0 +1,2970 @@
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-09T11-36-53-0567.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-09T11-36-53-0567.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-09T11-36-53-0567.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-09T11-36-53-0567.json	
++++ /dev/null	
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake",
+-			"cpack" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack",
+-			"ctest" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest",
+-			"root" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 28,
+-			"patch" : 1,
+-			"string" : "3.28.1",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-8006e6e5089d6ccd6665.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 6
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-b2b809e650162de12c58.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-033d5553affcc4c4a84b.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-bb57840159693364638b.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-b2b809e650162de12c58.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-033d5553affcc4c4a84b.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-8006e6e5089d6ccd6665.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 6
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-bb57840159693364638b.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8006e6e5089d6ccd6665.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8006e6e5089d6ccd6665.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8006e6e5089d6ccd6665.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8006e6e5089d6ccd6665.json	
++++ /dev/null	
+@@ -1,60 +0,0 @@
+-{
+-	"configurations" : 
+-	[
+-		{
+-			"directories" : 
+-			[
+-				{
+-					"build" : ".",
+-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.28"
+-					},
+-					"projectIndex" : 0,
+-					"source" : ".",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"name" : "Debug",
+-			"projects" : 
+-			[
+-				{
+-					"directoryIndexes" : 
+-					[
+-						0
+-					],
+-					"name" : "Task_1",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"targets" : 
+-			[
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "Task_1::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-Task_1-Debug-4535f6eda9703e8c4344.json",
+-					"name" : "Task_1",
+-					"projectIndex" : 0
+-				}
+-			]
+-		}
+-	],
+-	"kind" : "codemodel",
+-	"paths" : 
+-	{
+-		"build" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1/cmake-build-debug",
+-		"source" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1"
+-	},
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 6
+-	}
+-}
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-033d5553affcc4c4a84b.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-033d5553affcc4c4a84b.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-033d5553affcc4c4a84b.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-033d5553affcc4c4a84b.json	
++++ /dev/null	
+@@ -1,1214 +0,0 @@
+-{
+-	"inputs" : 
+-	[
+-		{
+-			"path" : "CMakeLists.txt"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystem.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Determine-CXX.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
+-		}
+-	],
+-	"kind" : "cmakeFiles",
+-	"paths" : 
+-	{
+-		"build" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1/cmake-build-debug",
+-		"source" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1"
+-	},
+-	"version" : 
+-	{
+-		"major" : 1,
+-		"minor" : 0
+-	}
+-}
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/target-Task_1-Debug-4535f6eda9703e8c4344.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/target-Task_1-Debug-4535f6eda9703e8c4344.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/target-Task_1-Debug-4535f6eda9703e8c4344.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/target-Task_1-Debug-4535f6eda9703e8c4344.json	
++++ /dev/null	
+@@ -1,99 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "Task_1"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 6,
+-				"parent" : 0
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics"
+-				}
+-			],
+-			"language" : "CXX",
+-			"languageStandard" : 
+-			{
+-				"backtraces" : 
+-				[
+-					1
+-				],
+-				"standard" : "17"
+-			},
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		}
+-	],
+-	"id" : "Task_1::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			}
+-		],
+-		"language" : "CXX"
+-	},
+-	"name" : "Task_1",
+-	"nameOnDisk" : "Task_1",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "Source Files",
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "main.cpp",
+-			"sourceGroupIndex" : 0
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-bb57840159693364638b.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-bb57840159693364638b.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-bb57840159693364638b.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-bb57840159693364638b.json	
++++ /dev/null	
+@@ -1,93 +0,0 @@
+-{
+-	"kind" : "toolchains",
+-	"toolchains" : 
+-	[
+-		{
+-			"compiler" : 
+-			{
+-				"id" : "AppleClang",
+-				"implicit" : 
+-				{
+-					"includeDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",
+-						"/Library/Developer/CommandLineTools/usr/include"
+-					],
+-					"linkDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib",
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift"
+-					],
+-					"linkFrameworkDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks"
+-					],
+-					"linkLibraries" : []
+-				},
+-				"path" : "/Library/Developer/CommandLineTools/usr/bin/cc",
+-				"version" : "15.0.0.15000309"
+-			},
+-			"language" : "C",
+-			"sourceFileExtensions" : 
+-			[
+-				"c",
+-				"m"
+-			]
+-		},
+-		{
+-			"compiler" : 
+-			{
+-				"id" : "AppleClang",
+-				"implicit" : 
+-				{
+-					"includeDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1",
+-						"/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include",
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",
+-						"/Library/Developer/CommandLineTools/usr/include"
+-					],
+-					"linkDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib",
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift"
+-					],
+-					"linkFrameworkDirectories" : 
+-					[
+-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks"
+-					],
+-					"linkLibraries" : 
+-					[
+-						"c++"
+-					]
+-				},
+-				"path" : "/Library/Developer/CommandLineTools/usr/bin/c++",
+-				"version" : "15.0.0.15000309"
+-			},
+-			"language" : "CXX",
+-			"sourceFileExtensions" : 
+-			[
+-				"C",
+-				"M",
+-				"c++",
+-				"cc",
+-				"cpp",
+-				"cxx",
+-				"mm",
+-				"mpp",
+-				"CPP",
+-				"ixx",
+-				"cppm",
+-				"ccm",
+-				"cxxm",
+-				"c++m"
+-			]
+-		}
+-	],
+-	"version" : 
+-	{
+-		"major" : 1,
+-		"minor" : 0
+-	}
+-}
+Index: Task-1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b2b809e650162de12c58.json
+===================================================================
+diff --git a/Task-1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b2b809e650162de12c58.json b/Task-1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b2b809e650162de12c58.json
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b2b809e650162de12c58.json	
++++ /dev/null	
+@@ -1,1163 +0,0 @@
+-{
+-	"entries" : 
+-	[
+-		{
+-			"name" : "CMAKE_ADDR2LINE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_ADDR2LINE-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/ar"
+-		},
+-		{
+-			"name" : "CMAKE_BUILD_TYPE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "Debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHEFILE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "This is the directory where this CMakeCache.txt was created"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1/cmake-build-debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Major version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "3"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MINOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Minor version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "28"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_PATCH_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Patch version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable colored diagnostics throughout."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "CMAKE_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
+-		},
+-		{
+-			"name" : "CMAKE_CPACK_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to cpack program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
+-		},
+-		{
+-			"name" : "CMAKE_CTEST_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to ctest program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "CXX compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/c++"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "C compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/cc"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_DLLTOOL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_EXECUTABLE_FORMAT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Executable file format"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "MACHO"
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable/Disable output of compile commands during generation."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXTRA_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of external makefile project generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake."
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1/cmake-build-debug/CMakeFiles/pkgRedirects"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "Ninja"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_INSTANCE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Generator instance identifier."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_PLATFORM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator platform."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_TOOLSET",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator toolset."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_HOME_DIRECTORY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1"
+-		},
+-		{
+-			"name" : "CMAKE_INSTALL_NAME_TOOL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/usr/bin/install_name_tool"
+-		},
+-		{
+-			"name" : "CMAKE_INSTALL_PREFIX",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Install path prefix, prepended onto install directories."
+-				}
+-			],
+-			"type" : "PATH",
+-			"value" : "/usr/local"
+-		},
+-		{
+-			"name" : "CMAKE_LINKER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/ld"
+-		},
+-		{
+-			"name" : "CMAKE_MAKE_PROGRAM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "make program"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_NM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/nm"
+-		},
+-		{
+-			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "number of local generators"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_OBJCOPY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_OBJCOPY-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_OBJDUMP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/objdump"
+-		},
+-		{
+-			"name" : "CMAKE_OSX_ARCHITECTURES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Build architectures for OSX"
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Minimum OS X version to target for deployment (at runtime); newer APIs weak linked. Set to empty string for default value."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "14.3"
+-		},
+-		{
+-			"name" : "CMAKE_OSX_SYSROOT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "The product will be built against the headers and libraries located inside the indicated SDK."
+-				}
+-			],
+-			"type" : "PATH",
+-			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+-		},
+-		{
+-			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Platform information initialized"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_DESCRIPTION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_NAME",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "Task_1"
+-		},
+-		{
+-			"name" : "CMAKE_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/ranlib"
+-		},
+-		{
+-			"name" : "CMAKE_READELF",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_READELF-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_ROOT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake installation."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/Users/elizavetaosipova/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/241.14494.288/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28"
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when using shared libraries."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STRIP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/strip"
+-		},
+-		{
+-			"name" : "CMAKE_TAPI",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "/Library/Developer/CommandLineTools/usr/bin/tapi"
+-		},
+-		{
+-			"name" : "CMAKE_UNAME",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "uname command"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "/usr/bin/uname"
+-		},
+-		{
+-			"name" : "CMAKE_VERBOSE_MAKEFILE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "FALSE"
+-		},
+-		{
+-			"name" : "Task_1_BINARY_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1/cmake-build-debug"
+-		},
+-		{
+-			"name" : "Task_1_IS_TOP_LEVEL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "Task_1_SOURCE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "/Users/elizavetaosipova/Desktop/Doczilla/Task-1"
+-		}
+-	],
+-	"kind" : "cache",
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 0
+-	}
+-}
+Index: Task-1/cmake-build-debug/Testing/Temporary/LastTest.log
+===================================================================
+diff --git a/Task-1/cmake-build-debug/Testing/Temporary/LastTest.log b/Task-1/cmake-build-debug/Testing/Temporary/LastTest.log
+deleted file mode 100644
+--- a/Task-1/cmake-build-debug/Testing/Temporary/LastTest.log	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-Start testing: May 09 14:36 MSK
+-----------------------------------------------------------
+-End testing: May 09 14:36 MSK
+Index: Task-1/FileOperations.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task-1/FileOperations.cpp b/Task-1/FileOperations.cpp
+new file mode 100644
+--- /dev/null	
++++ b/Task-1/FileOperations.cpp	
+@@ -0,0 +1,77 @@
++#include <fstream>
++#include <iostream>
++#include <filesystem>
++#include <regex>
++#include <unordered_set>
++
++namespace fs = std::filesystem;
++
++std::vector<std::string> collectAllTextFiles(const std::string& rootDirectory) {
++  std::vector<std::string> textFiles;
++  for (const auto& entry : fs::recursive_directory_iterator(rootDirectory)) {
++    if (entry.is_regular_file() && entry.path().extension() == ".txt") {
++      textFiles.push_back(fs::absolute(entry.path()).string());
++    }
++  }
++  return textFiles;
++}
++
++std::string loadFileContent(const std::string& filePath) {
++  std::ifstream fileStream(filePath);
++  if (!fileStream.is_open()) {
++    std::cerr << "Failed to open file: " << filePath << std::endl;
++    return "";
++  }
++
++  std::string content((std::istreambuf_iterator<char>(fileStream)), std::istreambuf_iterator<char>());
++  return content;
++}
++
++std::vector<std::string> parseRequiredFiles(const std::string& fileContent) {
++  std::vector<std::string> dependencies;
++  std::regex requireRegex(R"(require\s*['"]([^'"]+)['"])");
++  std::smatch matches;
++  std::string::const_iterator searchStart(fileContent.cbegin());
++
++  while (std::regex_search(searchStart, fileContent.cend(), matches, requireRegex)) {
++    dependencies.push_back(matches[1]);
++    searchStart = matches.suffix().first;
++  }
++
++  return dependencies;
++}
++
++void mergeFiles(const std::vector<std::string>& files, const std::string& outputFileName) {
++  std::ofstream outputStream(outputFileName);
++  if (!outputStream.is_open()) {
++    std::cerr << "Failed to open output file: " << outputFileName << std::endl;
++    return;
++  }
++
++  std::unordered_set<std::string> processedFiles;
++
++  for (const std::string& filePath : files) {
++    std::string fullFilePath = filePath;
++    if (fs::path(fullFilePath).extension() != ".txt") {
++      fullFilePath += ".txt";
++    }
++
++    if (processedFiles.count(fullFilePath)) {
++      continue;
++    }
++    processedFiles.insert(fullFilePath);
++
++    std::ifstream inputStream(fullFilePath);
++    if (!inputStream.is_open()) {
++      std::cerr << "Failed to open input file: " << fullFilePath << std::endl;
++      continue;
++    }
++
++    std::string line;
++    while (getline(inputStream, line)) {
++      if (line.find("require '") == std::string::npos) {
++        outputStream << line << "\n";
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: Task-1/FileOperations.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task-1/FileOperations.h b/Task-1/FileOperations.h
+new file mode 100644
+--- /dev/null	
++++ b/Task-1/FileOperations.h	
+@@ -0,0 +1,8 @@
++#pragma once
++#include <vector>
++#include <string>
++
++std::vector<std::string> collectAllTextFiles(const std::string& rootDirectory);
++std::string loadFileContent(const std::string& filePath);
++std::vector<std::string> parseRequiredFiles(const std::string& fileContent);
++void mergeFiles(const std::vector<std::string>& files, const std::string& outputFileName);
+Index: Task-1/DependencyManager.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task-1/DependencyManager.cpp b/Task-1/DependencyManager.cpp
+new file mode 100644
+--- /dev/null	
++++ b/Task-1/DependencyManager.cpp	
+@@ -0,0 +1,32 @@
++#include "DependencyManager.h"
++#include <unordered_set>
++#include <vector>
++
++std::vector<std::string> getTopologicalOrder(const std::unordered_map<std::string, std::set<std::string>>& graph) {
++  std::unordered_set<std::string> visited;
++  std::vector<std::string> sortedFiles;
++
++  auto performTopologicalSort = [&](const std::string& node, auto&& performTopologicalSort) -> void {
++    if (!visited.insert(node).second) return;
++
++    if (graph.count(node)) {
++      for (const auto& neighbor : graph.at(node)) {
++        performTopologicalSort(neighbor, performTopologicalSort);
++      }
++    }
++
++    sortedFiles.push_back(node);
++  };
++
++  for (const auto& [file, _] : graph) {
++    if (!visited.count(file)) {
++      performTopologicalSort(file, performTopologicalSort);
++    }
++  }
++
++  return sortedFiles;
++}
++
++std::vector<std::string> DependencyManager::getOrderedFiles() const {
++  return getTopologicalOrder(dependencyGraph);
++}
+\ No newline at end of file
+Index: Task-1/DependencyManager.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task-1/DependencyManager.h b/Task-1/DependencyManager.h
+new file mode 100644
+--- /dev/null	
++++ b/Task-1/DependencyManager.h	
+@@ -0,0 +1,22 @@
++#include <string>
++#include <unordered_map>
++#include <set>
++#include <vector>
++
++class DependencyManager {
++private:
++  std::unordered_map<std::string, std::set<std::string>> dependencyGraph;
++
++public:
++  void registerFile(const std::string& fileName) {
++    if (dependencyGraph.find(fileName) == dependencyGraph.end()) {
++      dependencyGraph[fileName] = {};
++    }
++  }
++
++  void addDependency(const std::string& from, const std::string& to) {
++    dependencyGraph[from].insert(to);
++  }
++
++  std::vector<std::string> getOrderedFiles() const;
++};
