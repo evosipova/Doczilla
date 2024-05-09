@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Управление студентами</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #CCF;;
+        }
+
+        .header {
+            background-color: #A098FF;
+            width: calc(100% - 10px);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0 0 0 20px;
+            font-size: 24px;
+            color: #000000;
+        }
+
+        .add-btn {
+            background-color: #6053FD;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-right: 15px
+        }
+
+        .add-btn:hover {
+            background-color: #4637FB;
+        }
+
+        .modal {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: relative;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 60%;
+            max-width: 500px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+            font-size: 34px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: black;
+        }
+
+        h2 {
+            margin-left: 40px;
+            width: calc(100% - 10px);
+            text-align: left;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        table {
+            width: calc(100% - 50px);
+            border-spacing: 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: white;
+        }
+
+        th, td {
+            background-color: white;
+            border: 2px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th:first-child, td:first-child {
+            width: 350px;
+        }
+
+        th {
+            background-color: #BDB8FF;
+        }
+
+        tr {
+            position: relative;
+        }
+
+        tr:hover td {
+            background-color: #f1f1f1;
+        }
+
+        .delete-cross {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #dc3545;
+            cursor: pointer;
+            visibility: hidden;
+        }
+
+        tr:hover .delete-cross {
+            visibility: visible;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: left;
+            display: block;
+            font-size: 17px;
+        }
+
+        input[type="text"], input[type="date"], button[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 17px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background-color: #6053FD;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 19px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #4637FB;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <h1>Управление студентами</h1>
+    <button class="add-btn" id="openModal">Добавить студента</button>
+</div>
+
+<div id="studentModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Добавить студента</h3>
+            <span class="close">&times;</span>
+        </div>
+        <form id="studentForm">
+            <label for="firstName">Имя:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Фамилия:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="middleName">Отчество:</label>
+            <input type="text" id="middleName" name="middleName">
+
+            <label for="birthDate">Дата рождения:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+
+            <label for="group">Группа:</label>
+            <input type="text" id="group" name="group" required>
+
+            <button type="submit">Добавить студента</button>
+        </form>
+    </div>
+</div>
+
+<h2>Список студентов</h2>
+<table id="studentsTable">
+    <thead>
+    <tr>
+        <th style="min-width: 80px">ID</th>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Отчество</th>
+        <th>Дата рождения</th>
+        <th>Группа</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<script>
+    const server = "http://localhost:8080/Task_2_1_0_SNAPSHOT_war/student"
+
+    const modal = $('#studentModal');
+    modal.hide()
+
+    $('#openModal').on('click', function () {
+        modal.show();
+    });
+    $('.close').on('click', function () {
+        modal.hide();
+    });
+    $(window).on('click', function (event) {
+        if (event.target.id === 'studentModal') {
+            modal.hide();
+        }
+    });
+
+    function formatDateToDDMMYYYY(dateStr) {
+        var parsedDate = moment(dateStr, "YYYY-MM-DD", true);
+        if (!parsedDate.isValid()) {
+            alert("Неверный формат даты.");
+            return null;
+        }
+        return parsedDate.format("DD-MM-YYYY");
+    }
+
+    const monthNames = ["января", "февраля", "марта", "апреля", "мая", "июня",
+        "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+
+    function formatDateWithOneBasedMonths(dateStr) {
+        const dateObj = new Date(dateStr);
+        if (isNaN(dateObj.getTime())) {
+            console.error("Неверная строка даты:", dateStr);
+            return "";
+        }
+        const day = dateObj.getDate();
+        const monthIndex = dateObj.getMonth();
+        const year = dateObj.getFullYear();
+        const monthName = monthNames[monthIndex];
+        return `${day} ${monthName} ${year} г.`;
+    }
+
+    function loadStudents() {
+        $.ajax({
+            url: server,
+            type: 'GET',
+            success: function (data) {
+                var tableBody = $('#studentsTable tbody');
+                tableBody.empty();
+                $.each(data, function (index, student) {
+                    var row = $('<tr>');
+                    row.append($('<td>').text(student.id));
+                    row.append($('<td>').text(student.firstName));
+                    row.append($('<td>').text(student.lastName));
+                    row.append($('<td>').text(student.middleName || ''));
+                    row.append($('<td>').text(formatDateWithOneBasedMonths(student.birthDate)));
+                    row.append($('<td>').text(student.group));
+
+                    var deleteCross = $('<span>')
+                        .text('✖')
+                        .addClass('delete-cross')
+                        .click(function () {
+                            deleteStudent(student.id);
+                        });
+                    row.append(deleteCross);
+
+                    tableBody.append(row);
+                });
+            },
+            error: function () {
+                alert('Ошибка загрузки данных студентов.');
+            }
+        });
+    }
+
+    $('#studentForm').on('submit', function (e) {
+        e.preventDefault();
+        var birthDateStr = $('#birthDate').val();
+        var formattedDate = formatDateToDDMMYYYY(birthDateStr);
+        if (!formattedDate) return;
+        var formData = {
+            firstName: $('#firstName').val(),
+            lastName: $('#lastName').val(),
+            middleName: $('#middleName').val() || '',
+            birthDate: formattedDate,
+            group: $('#group').val()
+        };
+
+        $.ajax({
+            url: server,
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(formData),
+            success: function () {
+                loadStudents();
+                modal.hide();
+            },
+            error: function () {
+                alert('Ошибка добавления студента.');
+            }
+        });
+    });
+
+    function deleteStudent(studentId) {
+        $.ajax({
+            url: server + '?id=' + studentId,
+            type: 'DELETE',
+            success: function () {
+                loadStudents();
+            },
+            error: function () {
+                alert('Ошибка удаления студента.');
+            }
+        });
+    }
+
+    loadStudents();
+</script>
+</body>
+</html>
