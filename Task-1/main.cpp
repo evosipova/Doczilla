@@ -43,5 +43,18 @@ int main() {
         }
     }
 
+    try {
+        std::vector<std::string> sortedFiles = dependencyGraph.getOrderedFiles();
+        std::cout << "Sorted file order for concatenation:" << std::endl;
+        for (const std::string& file : sortedFiles) {
+            std::cout << file << std::endl;
+        }
+
+        mergeFiles(sortedFiles, outputFileName);
+        std::cout << "Files successfully concatenated into " << outputFileName << std::endl;
+    } catch (const std::runtime_error& error) {
+        std::cerr << "Error: " << error.what() << std::endl;
+    }
+
     return 0;
 }
