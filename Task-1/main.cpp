@@ -18,10 +18,29 @@ int main() {
     }
 
     std::vector<std::string> textFiles = collectAllTextFiles(rootDirectory.string());
+    DependencyManager dependencyGraph;
 
     std::cout << "Text files found:\n";
     for (const std::string& filePath : textFiles) {
         std::cout << filePath << std::endl;
+    }
+
+    for (const std::string& filePath : textFiles) {
+        std::string absoluteFilePath = fs::absolute(filePath).string();
+        dependencyGraph.registerFile(absoluteFilePath);
+
+        std::string fileContent = loadFileContent(filePath);
+        std::vector<std::string> requiredFiles = parseRequiredFiles(fileContent);
+        for (const std::string& requiredFile : requiredFiles) {
+            fs::path relativePath(requiredFile);
+            fs::path fullPath = fs::absolute(rootDirectory / relativePath);
+            std::string absoluteDependencyPath = fullPath.string();
+            if (fullPath.extension() != ".txt") {
+                absoluteDependencyPath += ".txt";
+            }
+
+            dependencyGraph.addDependency(absoluteFilePath, absoluteDependencyPath);
+        }
     }
 
     return 0;

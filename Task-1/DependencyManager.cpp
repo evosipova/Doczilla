@@ -1,1 +1,1 @@
-#include "DependencyManager.h"
+#include "DependencyManager.h"#include <unordered_set>#include <vector>void DependencyManager::registerFile(const std::string& fileName) {    if (dependencyGraph.find(fileName) == dependencyGraph.end()) {        dependencyGraph[fileName] = {};    }}void DependencyManager::addDependency(const std::string& from, const std::string& to) {    dependencyGraph[from].insert(to);}
