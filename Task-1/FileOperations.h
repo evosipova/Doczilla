@@ -1,1 +1,1 @@
-//// Created by Elizaveta Osipova on 5/9/24.//#ifndef TASK_1_FILEOPERATIONS_H#define TASK_1_FILEOPERATIONS_Hclass FileOperations {};#endif//TASK_1_FILEOPERATIONS_H
+#pragma once#include <vector>#include <string>std::vector<std::string> collectAllTextFiles(const std::string& rootDirectory);
