@@ -1,9 +1,9 @@
-#include <iostream>
+#include "include/DependencyManager.h"
+#include "include/FileOperations.h"
 #include <filesystem>
-#include <vector>
+#include <iostream>
 #include <string>
-#include "FileOperations.h"
-#include "DependencyManager.h"
+#include <vector>
 
 namespace fs = std::filesystem;
 

@@ -4,9 +4,9 @@ project(Task_1)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES
-        main.cpp
-        fileOperations.cpp
-        dependencyManager.cpp
+        src/main.cpp
+        src/FileOperations.cpp
+        src/DependencyManager.cpp
 )
 
 add_executable(Task_1 ${SOURCE_FILES})
